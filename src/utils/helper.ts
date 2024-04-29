@@ -1,0 +1,1 @@
+export const formatPokeId = (id: number): string => `#${"0".repeat(3 - id.toString().length)}${id}`;
